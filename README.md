@@ -37,14 +37,6 @@ This Python script connects to your Renogy solar charge controller or battery vi
 
 pip install renogybt requests
 
-text
-
-Or, if you cloned the [renogy-bt](https://github.com/wingchen/renogy-bt) repo, install its requirements:
-
-pip install -r requirements.txt
-
-text
-
 3. Make sure your Bluetooth is enabled and your Renogy device is powered on and within range.
 
 ---
@@ -75,8 +67,6 @@ DEVICE_CONFIG = {
 
 DISCORD_WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL" # Replace with your webhook URL
 
-text
-
 ---
 
 ## Usage
@@ -85,7 +75,6 @@ Run the script:
 
 python renogy_monitor.py
 
-text
 
 The script will:
 
